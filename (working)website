@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+        
+        <center><h1>Doordash Data</h1></center>
+        <center><h3>(South Jersey & Philadelphia stores)</h3></center>
+        <marquee width="100%" direction="left" height=100px">    
+            <h3> Data on how frequent South jersey stores get doordash oders. </h3>   
+        </marquee> 
+
+</script> 
+
+<center><div id="piechart"></div></center>
+
+<script type="text/javascript"
+src="https://www.gstatic.com/charts/loader.js"></script>
+ 
+<script type="text/javascript">
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+
+function drawChart() {
+var data = google.visualization.arrayToDataTable([
+    ['Location', 'Percent'],
+    ['Panera Lemek Slower Lower LLC (Clements Bridge Road)', 1],
+    ["McDonald's (13089-FESTIVAL)", 1],
+    ["Wawa (8431)", 5],
+    ["Taco Bell (29783) ", 4],
+    ["Dunkin' (310016) ", 1],
+    ["Wendy's (2641) ", 4],
+    ["Wasabi (N Black Horse Pike) ", 2],
+    ["Pizza Hut (033125) Marketplace", 1],
+    ["Checkers (3134)", 2],
+    ["Oishii Ramen", 1],
+    ["Vinny's Pizza (N White Horse Pike)", 1],
+    ["Wawa (0383)", 6],
+    ["McDonald's (11289-UPPER DARBY/69TH)", 2],
+    ["Wingstop (1641)", 3],
+    ["Pearl Chinese & Japanese Cuisine (N Lansdowne Ave)", 1],
+    ["Chick-fil-A (02022)", 1],
+    ["Pizza Hut (038994)", 2],
+    ["McDonald's (6986-52ND & CHESTNUT)", 1],
+    ["Burger King(586)", 1],
+    ["Taco Bell(27771)", 1],
+    ["Wendy's (11983)", 1],
+    ["Texas Chicken & Burgers (Woodland Ave)", 1],
+    ["Dodo Bakery(S 11th St)", 1],
+    ["McDonald's (2824-HAMMONTON)", 2],
+    ["Applebee's 9680 HAMMONTON", 3],
+    ["7-Eleven (19990)", 1],
+    ["IHOP (3481)", 2],
+    ["bb.q Chicken Upper Darby,PA", 1],
+    ["Halal Food king", 1],
+    ["Outback Steakhouse(1118 Baltimore Pike)", 1],
+    ["Pizza Hut(38994)", 1],
+    ["McDonald's (922-CLFTN HTS-BALT)", 1],
+    ["Lagos Island Pizza & Grille (Long Lane)", 1],
+    ["Pete's Pizza II (Woodland Ave)", 1],
+    ["Little Caesars(1937-0001)", 1],
+    ["Wendy's (2641)", 1],
+    ["Costello's Pizzeria & Wings", 1],
+    ["Fibbers Sports Bar & Grille (Upper Darby)", 3],
+    ["Rita's Italian Ice (225 - Philadelphia, PA)", 1],
+    ["Wilson's Secret Sauce (Line Rd)", 1],
+    ["Burger King(2573)", 1],
+    ["Wendy's (9522)", 1],
+    ["Popeyes (11155)", 2],
+    ["ACME Markets(2789)", 2],
+    ["Choywong Chinese restaurant", 1],
+    ["Ry's Bagels", 1],
+    ["Pancheros Mexican Grill (Delsea Drive)", 1],
+    ["Primo Hoagies(Hammonton)", 1],
+    ["ShopRite Pharmacy(504)", 1],
+    ["McDonald's (7706-EGG HARBOR-RT 30)", 1],
+    ["Andy's Pizza & Ristorante (12th Street)",1]
+
+]);
+var options = {
+'title':'', 'width':1500, 'height':800,is3D:true,backgroundColor:'#cec8ef',fontSize:13.5
+,fontName:'Georgia'};
+var chart =
+new google.visualization.PieChart(document.getElementById('piechart'));
+chart.draw(data, options);
+
+}
+
+</script>
+
+<style> 
+body{
+    background-color: #cec8ef
+
+}
+
+</style>
+
+</body>
+</html>
