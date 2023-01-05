@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
         
+        <link rel="stylesheet" href="styles.css" />
         <center><h1>Doordash Data</h1></center>
         <center><h3>(South Jersey & Philadelphia stores)</h3></center>
         <marquee width="100%" direction="left" height=100px">    
-            <h3> Data on how frequent South jersey stores get doordash oders. </h3>   
+        <!--<h3> Data on how frequent South jersey stores get doordash oders. </h3>   -->    
         </marquee> 
 
-</script> 
 
 <center><div id="piechart"></div></center>
 
@@ -86,13 +86,6 @@ chart.draw(data, options);
 
 </script>
 
-<style> 
-body{
-    background-color: #cec8ef
-
-}
-
-</style>
 
 </body>
 </html>
