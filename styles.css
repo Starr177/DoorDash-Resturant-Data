@@ -1,0 +1,35 @@
+*{
+    background-color:  #cec8ef;
+    overflow: hidden;
+
+}
+
+
+
+
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 625px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: 'Georgia', 'Georgia', Arial, sans-serif, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    margin: 0;
+    padding: 15; 
+    position: absolute;
+    top: 85px;
+    left: 600px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+} 
+
+
+script {
+    padding: 2em;
+
+}
